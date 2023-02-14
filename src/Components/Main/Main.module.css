@@ -1,0 +1,52 @@
+.main {
+  overflow-x: hidden
+}
+
+.main h1 {
+  color: #141414;
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.8rem;
+  text-transform: uppercase;
+  position: relative;
+  left: -15%;
+  margin-top: 6%;
+}
+
+.footer {
+  background-color: #141414;
+  height: 200px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1%;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .main h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    left: -2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    left: 0%;
+  }
+}

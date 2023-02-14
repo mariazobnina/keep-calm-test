@@ -1,0 +1,108 @@
+.infoblock {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+}
+
+.infoblockPart1 {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: space-between;
+}
+
+.infoblockPart2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  justify-content: end
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 800px;
+}
+
+.heading h3 {
+  font-family: 'Orchidea Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.3rem;
+  color: #141414;
+}
+
+.textContainer p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #141414;
+}
+
+.picInfoBlock1 {
+  background-position: center;
+  position: relative;
+  left: -6%;
+  width: 53rem;
+  height: 30rem;
+}
+
+.picInfoBlock2 {
+  background-position: center center;
+  width: 37.4rem;
+  height: 25.6rem;
+  margin-left: 5%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .heading h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .infoblock {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading h3 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+  .infoblockPart1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+  }
+
+  .infoblockPart2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+  }
+
+  .textContainer {
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+  }
+
+  .picInfoBlock1 {
+    height: 23.1rem;
+  }
+
+  .picInfoBlock2 {
+    height: 23.1rem;
+  }
+}

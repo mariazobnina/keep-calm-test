@@ -1,0 +1,25 @@
+.navbar {
+  width: 100vw;
+  margin: 0 auto;
+  /* position: fixed; */
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(0deg, #464341 0%, #010101 100%);
+}
+
+.navbar p {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

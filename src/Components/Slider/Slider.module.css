@@ -1,0 +1,64 @@
+.picsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 20%;
+}
+
+.onePicture {
+  min-width: 20rem;
+  height: 30.5rem;
+  background-position: center;
+  margin: 2%;
+  cursor: pointer;
+}
+
+#picture1 {
+  background-image: url('../../../public/pics/slider1.png');
+}
+
+#picture2 {
+  background-image: url('../../../public/pics/slider2.png');
+}
+
+#picture3 {
+  background-image: url('../../../public/pics/slider3.png');
+}
+
+#picture4 {
+  background-image: url('../../../public/pics/slider4.png');
+}
+
+#picture5 {
+  background-image: url('../../../public/pics/slider5.png');
+}
+
+#picture6 {
+  background-image: url('../../../public/pics/slider6.png');
+}
+
+#picture7 {
+  background-image: url('../../../public/pics/slider1.png');
+}
+
+#picture8 {
+  background-image: url('../../../public/pics/slider7.png');
+}
+
+#picture9 {
+  background-image: url('../../../public/pics/slider8.png');
+}
+
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    left: 0%;
+  }
+
+  .slider {
+    -webkit-overflow-scrolling: touch;
+  }
+}
